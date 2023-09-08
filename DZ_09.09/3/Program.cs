@@ -21,7 +21,7 @@ double max = Int32.MinValue;
             min = numbers[i];
         }
     }
-Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max},\n минимальное значение = {min}");
+Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
 Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
 void FillArray(double[] numbers)
 {
